@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyBookingsItemActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:id="@+id/my_bookings_hotel_img"
+    android:layout_height="200dp"
+    android:src="@drawable/hotel_images_3"
+    android:scaleType="centerCrop"
+    />
+
+    <TextView
+        android:id="@+id/my_bookings_hotel_name"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="12dp"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/my_bookings_hotel_location"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="12dp"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/my_bookings_hotel_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="12dp"
+        android:textSize="18sp"
+
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/delete_booking"
+        android:layout_margin="24dp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove booking" />
+</LinearLayout>
